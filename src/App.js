@@ -27,6 +27,30 @@ const bookShelf = [
   author: 'Deborah Hopkinson',
 
 }
+,
+{
+  id:4,
+  img: 'https://images-na.ssl-images-amazon.com/images/I/613KCs7szvL._AC_UL604_SR604,400_.jpg',
+  title: 'Ugly Love: A Novel',
+  author: 'Colleen Hoover',
+
+}
+,
+{
+  id:5,
+  img: 'https://images-na.ssl-images-amazon.com/images/I/51SSq9F8oPL._AC_UL604_SR604,400_.jpg',
+  title: "Little Blue Truck's Valentine",
+  author: 'Alice Schertle',
+
+}
+,
+{
+  id:6,
+  img: 'https://images-na.ssl-images-amazon.com/images/I/51G2Y+mbUpL._AC_UL604_SR604,400_.jpg',
+  title: 'The Last Thing He Told Me: A Novel',
+  author: 'Laura Dave',
+
+}
 ]
   return (
     <section className='booklist'>
