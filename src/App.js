@@ -1,5 +1,6 @@
 import './index.css'
-import { bookShelf } from './book';
+import { bookShelf } from './books';
+import Books from './book.js';
 function App() {
 
 //setting up array
@@ -15,16 +16,6 @@ function App() {
   );
 }
 
-const Books = (props) =>{
-  const {img,title,author} = props
-  return(
-    <article className='book'>
-      <img src={img} alt="" />
-      <h1>{title}</h1>
-      <h4>{author}</h4>
-    </article>
-  )
 
-}
 
 export default App;
